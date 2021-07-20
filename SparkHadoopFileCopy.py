@@ -17,3 +17,5 @@ print(datetime.now().strftime("%y/%m/%d %H:%M:%S"))
 fu = spark._jvm.org.apache.hadoop.fs.FileUtil()
 fu.copy(fs,Path(s3loc_src_path),fs,Path(s3loc_dest_path),False,spark._jsc.hadoopConfiguration())
 print(datetime.now().strftime("%y/%m/%d %H:%M:%S"))
+
+# Added this comment to test the GCP cloud Build
